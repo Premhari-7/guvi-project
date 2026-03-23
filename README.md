@@ -1,7 +1,9 @@
-# GUVI Full Stack Project
+# GUVI Full Stack Internship Project
 
 ## 📌 Project Overview
-This is a full stack web application with:
+This is a full stack web application developed as part of GUVI requirements.
+
+The project includes:
 - User Registration & Login (MySQL)
 - Profile Management (MongoDB)
 - Session Handling (localStorage + Redis)
@@ -10,15 +12,42 @@ This is a full stack web application with:
 
 ##  Features
 
-###  Authentication
-- Users can register and login securely
-- Only valid Gmail addresses are allowed
+###  Authentication System
+- Secure user registration and login
+- Only valid Gmail addresses are accepted
+- Invalid login attempts are rejected
+
+---
 
 ###  Profile Management
-- Users can save:
+- Users can store:
   - Age
   - Date of Birth
   - Contact Number
+- Data is stored in MongoDB
+
+---
+
+###  Real-Time Popup Messages
+- Instant feedback for:
+  - Login success/failure
+  - Registration success
+  - Validation errors
+- Smooth user interaction using JavaScript
+
+---
+
+###  Smooth UI & Animations
+- Clean and modern UI design
+- Smooth transitions and user-friendly experience
+
+---
+
+###  Mobile Responsive Design
+- Built using Bootstrap
+- Fully responsive across:
+  - Mobile
+  - Desktop
 
 ---
 
@@ -26,8 +55,8 @@ This is a full stack web application with:
 
 ###  Email Validation
 - Only valid Gmail format allowed  
-   Example: user@gmail.com  
-   Invalid: user@gmail, user@, user123  
+ Example: user@gmail.com  
+ Invalid: user@gmail, user@, user123  
 
 ---
 
@@ -39,14 +68,14 @@ This is a full stack web application with:
 
 ###  Age Validation
 - Age must be greater than 0  
--  Negative or zero values are not allowed  
+ Zero or negative values not allowed  
 
 ---
 
 ###  Contact Validation
 - Must be exactly 10 digits  
--  Letters are not allowed  
--  Less or more than 10 digits not allowed  
+ Letters are not allowed  
+ Less or more than 10 digits not allowed  
 
 ---
 
@@ -60,10 +89,10 @@ This is a full stack web application with:
 
 - HTML, CSS, JavaScript  
 - Bootstrap (Responsive UI)  
-- jQuery (DOM + AJAX)  
+- jQuery (DOM manipulation & AJAX)  
 - PHP (Backend)  
-- MySQL (User data)  
-- MongoDB (Profile data)  
+- MySQL (User authentication)  
+- MongoDB (Profile storage)  
 - Redis (Session storage)  
 
 ---
@@ -71,22 +100,42 @@ This is a full stack web application with:
 ##  How to Run the Project
 
 1. Start XAMPP (Apache & MySQL)
-2. Place project inside:
+2. Place the project inside:
    C:\xampp\htdocs\guvi-project
 3. Open browser:
    http://localhost/guvi-project/
 
 ---
 
+## 📸 Screenshots
+
+###  Login Page
+![Login](assets/screenshots/login.png)
+
+---
+
+###  Register Page
+![Register](assets/screenshots/register.png)
+
+---
+
+###  Profile Page
+![Profile](assets/screenshots/profile.png)
+
+---
+
 ##  Notes for Reviewer
 
-- This project uses AJAX (no form submission)
+- AJAX is used for backend communication (no form submission)
 - MySQL uses Prepared Statements
 - Session is handled using:
   - localStorage (frontend)
   - Redis (backend)
+- Project follows all GUVI guidelines
 
 ---
 
 ##  Author
-PREM HARI S
+
+**Prem Hari S**  
+Maatram Foundation Student
