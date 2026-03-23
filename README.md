@@ -90,5 +90,3 @@ This is a full stack web application with:
 
 ##  Author
 PREM HARI S
-B.sc COMPUTER TECHNOLOGY
-MAATRAM FOUNDATION STUDENT
